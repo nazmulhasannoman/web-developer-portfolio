@@ -1,0 +1,49 @@
+common shared styles
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+/* nav related styles */
+nav {
+    display: flex;  
+    justify-content: space-between;  /* Mary & Portfolio, Blog, Hire Me goes on 2 end */
+    align-items: center; /* 1st align-items pull down little bit */
+}
+
+.nav-title {
+    color: #181818;
+
+    font-size: 45px;
+
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;  /* 2nd align-items pull down more */
+}
+
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
